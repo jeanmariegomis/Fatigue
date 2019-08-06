@@ -1,8 +1,9 @@
 <?php
 
 namespace App\Entity;
-
+use Symfony\Component\Validator\Constraints as Assert;
 use ApiPlatform\Core\Annotation\ApiResource;
+
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -25,6 +26,10 @@ class Depot
 
     /**
      * @ORM\Column(type="bigint")
+     * @Assert\Range(
+     * min = 75000,
+     * minMessage = "Le depot doit etre minimum 75000"
+     * )
      */
     private $montant;
 
