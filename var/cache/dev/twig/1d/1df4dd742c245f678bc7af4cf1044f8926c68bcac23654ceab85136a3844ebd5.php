@@ -69,6 +69,6 @@ class __TwigTemplate_c7b52b6d09ef084b1b8170958cea9f34bb22203a13c6cf1312e384fbf03
     <?php \$attr['data-prototype'] = \$view->escape(\$view['form']->row(\$prototype)) ?>
 <?php endif ?>
 <?php echo \$view['form']->widget(\$form, ['attr' => \$attr]) ?>
-", "@Framework/Form/collection_widget.html.php", "/home/jean/Fatigue/vendor/symfony/framework-bundle/Resources/views/Form/collection_widget.html.php");
+", "@Framework/Form/collection_widget.html.php", "/home/jean/Bureau/fatigue/vendor/symfony/framework-bundle/Resources/views/Form/collection_widget.html.php");
     }
 }

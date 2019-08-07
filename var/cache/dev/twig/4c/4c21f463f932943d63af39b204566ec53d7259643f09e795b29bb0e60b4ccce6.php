@@ -291,6 +291,6 @@ class __TwigTemplate_249c9ecba7634620717eb815d2b09f31e27f4e58807c506141e2ea8aa21
         </tbody>
     </table>
 {% endblock %}
-", "@VichUploader/Collector/mapping_collector.html.twig", "/home/jean/Fatigue/vendor/vich/uploader-bundle/Resources/views/Collector/mapping_collector.html.twig");
+", "@VichUploader/Collector/mapping_collector.html.twig", "/home/jean/Bureau/fatigue/vendor/vich/uploader-bundle/Resources/views/Collector/mapping_collector.html.twig");
     }
 }

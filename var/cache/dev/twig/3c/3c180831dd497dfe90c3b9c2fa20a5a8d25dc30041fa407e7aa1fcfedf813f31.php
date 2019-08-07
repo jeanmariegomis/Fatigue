@@ -413,6 +413,6 @@ class __TwigTemplate_951c68c2e632e83a22c43f91160d6bee3f154156d3c35cb4762aa085b81
 {% block body %}
     {% include '@Twig/Exception/exception.html.twig' %}
 {% endblock %}
-", "@Twig/Exception/exception_full.html.twig", "/home/jean/Fatigue/vendor/symfony/twig-bundle/Resources/views/Exception/exception_full.html.twig");
+", "@Twig/Exception/exception_full.html.twig", "/home/jean/Bureau/fatigue/vendor/symfony/twig-bundle/Resources/views/Exception/exception_full.html.twig");
     }
 }

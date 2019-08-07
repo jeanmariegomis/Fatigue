@@ -154,6 +154,6 @@ class __TwigTemplate_07bbb0e411e89d52f9ec8e2444a38eb953c6318720a3f892e456425c0c7
     </ul>
 </div>
 {% endblock %}
-", "security/index.html.twig", "/home/jean/Fatigue/templates/security/index.html.twig");
+", "security/index.html.twig", "/home/jean/Bureau/fatigue/templates/security/index.html.twig");
     }
 }

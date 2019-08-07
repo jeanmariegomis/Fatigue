@@ -156,6 +156,6 @@ class __TwigTemplate_32fc0b6c2024c38dd642b85964eb9e64b5f49432bdb95f12c2eb79480e5
     <h2>{{ messages[about].title }}</h2>
     <p>{{ messages[about].message }}</p>
 {% endblock %}
-", "@WebProfiler/Profiler/info.html.twig", "/home/jean/Fatigue/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/info.html.twig");
+", "@WebProfiler/Profiler/info.html.twig", "/home/jean/Bureau/fatigue/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/info.html.twig");
     }
 }

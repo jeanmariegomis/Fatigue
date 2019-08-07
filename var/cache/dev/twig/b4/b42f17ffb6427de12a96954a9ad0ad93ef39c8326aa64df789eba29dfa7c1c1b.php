@@ -798,6 +798,6 @@ class __TwigTemplate_9868c71e54d02afc6b1d1a83434257b50d91564f809429fd8e22ceafd90
     </table>
     {% endfor %}
 {% endmacro %}
-", "@WebProfiler/Collector/messenger.html.twig", "/home/jean/Fatigue/vendor/symfony/web-profiler-bundle/Resources/views/Collector/messenger.html.twig");
+", "@WebProfiler/Collector/messenger.html.twig", "/home/jean/Bureau/fatigue/vendor/symfony/web-profiler-bundle/Resources/views/Collector/messenger.html.twig");
     }
 }

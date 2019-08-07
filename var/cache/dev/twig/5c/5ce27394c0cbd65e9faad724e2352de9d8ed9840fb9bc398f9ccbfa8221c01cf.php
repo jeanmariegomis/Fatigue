@@ -792,6 +792,6 @@ class __TwigTemplate_6abe071840c6528876135249155f029e13b09538fae29de841c796334a8
         </table>
     {% endif %}
 {% endblock %}
-", "@WebProfiler/Collector/config.html.twig", "/home/jean/Fatigue/vendor/symfony/web-profiler-bundle/Resources/views/Collector/config.html.twig");
+", "@WebProfiler/Collector/config.html.twig", "/home/jean/Bureau/fatigue/vendor/symfony/web-profiler-bundle/Resources/views/Collector/config.html.twig");
     }
 }

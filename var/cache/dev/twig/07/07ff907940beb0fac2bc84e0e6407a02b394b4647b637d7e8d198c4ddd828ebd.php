@@ -130,6 +130,6 @@ class __TwigTemplate_aa302a8aef6dd6243f28ace75faf37ff72dcba7060c74a71603d4ea9c35
 
 </body>
 </html>
-", "@ApiPlatform/Graphiql/index.html.twig", "/home/jean/Fatigue/vendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/views/Graphiql/index.html.twig");
+", "@ApiPlatform/Graphiql/index.html.twig", "/home/jean/Bureau/fatigue/vendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/views/Graphiql/index.html.twig");
     }
 }

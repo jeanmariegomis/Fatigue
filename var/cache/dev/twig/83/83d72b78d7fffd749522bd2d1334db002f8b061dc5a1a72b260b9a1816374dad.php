@@ -874,6 +874,6 @@ class __TwigTemplate_c2d1f6dd1648d80434905babeef9c453b3bac018fc5ae258e88a214a8c2
         </tbody>
     </table>
 {% endmacro %}
-", "@WebProfiler/Collector/translation.html.twig", "/home/jean/Fatigue/vendor/symfony/web-profiler-bundle/Resources/views/Collector/translation.html.twig");
+", "@WebProfiler/Collector/translation.html.twig", "/home/jean/Bureau/fatigue/vendor/symfony/web-profiler-bundle/Resources/views/Collector/translation.html.twig");
     }
 }

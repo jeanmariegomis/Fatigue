@@ -23,6 +23,8 @@ use Symfony\Component\Security\Core\User\DatetimeInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
 
+use Symfony\Component\Validator\Validator\ValidatorInterface;
+
 /** 
  * @Route("/api")
  */
@@ -31,11 +33,11 @@ class EntrepriseController extends AbstractController
     /** 
      * @Route("/entreprise", name="entreprise", methods={"POST"})
      */
-    public function enregistrer(Request $request, EntityManagerInterface $entityManager, UserPasswordEncoderInterface $passwordEncoder): Response
+    public function enregistrer(Request $request, EntityManagerInterface $entityManager, UserPasswordEncoderInterface $passwordEncoder,ValidatorInterface $validator,SerializerInterface $serializer): Response
     {
         
         $values = json_decode($request->getContent());
-
+        $random=random_int(100000,999999);
         $user= new User();
         $user->setUsername($values->username);
         $user->setPassword($passwordEncoder->encodePassword($user, $values->password));
@@ -61,6 +63,11 @@ class EntrepriseController extends AbstractController
         $compte->setSolde($values->solde);
         $compte->setEntreprise($entreprise);
         $entityManager = $this->getDoctrine()->getManager();
+        $errors = $validator->validate($depot);
+            if (count($errors)) {
+                $errors = $serializer->serialize($errors, 'json');
+                return new Response($errors, 500, ['Content-Type' => 'Application/json']);
+            }
         $entityManager->persist($user);
         $entityManager->persist($entreprise);
         $entityManager->persist($compte);
@@ -77,7 +84,7 @@ class EntrepriseController extends AbstractController
      */
 
 
-    public function depot (Request $request, UserInterface $Userconnecte) // UserInterface permette de recuperer l'utilisateur actuellement connecté
+    public function depot (Request $request, UserInterface $Userconnecte, ValidatorInterface $validator, SerializerInterface $serializer) // UserInterface permette de recuperer l'utilisateur actuellement connecté
     {
         $depot = new Depot();//creation d'un objet de type depot
        
@@ -92,6 +99,11 @@ class EntrepriseController extends AbstractController
            $depot->setCompte($compte);
            $compte->setSolde($compte->getSolde()+$depot->getMontant());// on rempli le nouveau solde du depot
            $manager=$this->getDoctrine()->getManager();// recuperation de l'objet manager
+           $errors = $validator->validate($depot);
+            if (count($errors)) {
+                $errors = $serializer->serialize($errors, 'json');
+                return new Response($errors, 500, ['Content-Type' => 'Application/json']);
+            }
            $manager->persist($compte);// nous permet d'ecrire dans la table entreprise
            $manager->persist($depot);//permet d'ecrire dans la table depot
            $manager->flush();

@@ -69,6 +69,6 @@ class __TwigTemplate_230f3daea74cd262efe420c63192116f96c97c774a1632dbc639bbeb95e
     public function getSourceContext()
     {
         return new Source("{{ include('@Twig/Exception/error.xml.twig') }}
-", "@Twig/Exception/error.rdf.twig", "/home/jean/Fatigue/vendor/symfony/twig-bundle/Resources/views/Exception/error.rdf.twig");
+", "@Twig/Exception/error.rdf.twig", "/home/jean/Bureau/fatigue/vendor/symfony/twig-bundle/Resources/views/Exception/error.rdf.twig");
     }
 }

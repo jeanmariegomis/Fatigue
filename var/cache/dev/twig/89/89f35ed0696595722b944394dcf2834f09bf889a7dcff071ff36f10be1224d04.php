@@ -79,6 +79,6 @@ class __TwigTemplate_79912f5fb2a8835a4e9d74a8080d5fd44234232e81febcace9f7079f585
         return new Source("<?xml version=\"1.0\" encoding=\"{{ _charset }}\" ?>
 
 <error code=\"{{ status_code }}\" message=\"{{ status_text }}\" />
-", "@Twig/Exception/error.xml.twig", "/home/jean/Fatigue/vendor/symfony/twig-bundle/Resources/views/Exception/error.xml.twig");
+", "@Twig/Exception/error.xml.twig", "/home/jean/Bureau/fatigue/vendor/symfony/twig-bundle/Resources/views/Exception/error.xml.twig");
     }
 }

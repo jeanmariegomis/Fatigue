@@ -375,6 +375,6 @@ class __TwigTemplate_580221dc6bc86447e89956abdc34198d930b485d6f4f4306b73b9652363
 
 </body>
 </html>
-", "@ApiPlatform/SwaggerUi/index.html.twig", "/home/jean/Fatigue/vendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/views/SwaggerUi/index.html.twig");
+", "@ApiPlatform/SwaggerUi/index.html.twig", "/home/jean/Bureau/fatigue/vendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/views/SwaggerUi/index.html.twig");
     }
 }

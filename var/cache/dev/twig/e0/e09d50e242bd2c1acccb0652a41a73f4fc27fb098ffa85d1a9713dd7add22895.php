@@ -95,6 +95,6 @@ class __TwigTemplate_21b5318bf7d523e85b0d9083e9a8693da56c55bc727ffe39bbac01ae2fc
             </trace>
 {% endfor %}
         </traces>
-", "@Twig/Exception/traces.xml.twig", "/home/jean/Fatigue/vendor/symfony/twig-bundle/Resources/views/Exception/traces.xml.twig");
+", "@Twig/Exception/traces.xml.twig", "/home/jean/Bureau/fatigue/vendor/symfony/twig-bundle/Resources/views/Exception/traces.xml.twig");
     }
 }
